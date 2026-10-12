@@ -1,0 +1,44 @@
+{
+  "info": {
+    "name": "ZZCOLLBREAK_NAME_SQ' Collection",
+    "description": "Breaker collection fixture: ZZCOLLBREAK_DESC_CMT' // zzcollTail",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "ZZCOLLBREAK_ITEM1_SQ'",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "https://zzcollbreak.example/alpha", "protocol": "https", "host": ["zzcollbreak","example"], "path": ["alpha"] }
+      },
+      "response": []
+    },
+    {
+      "name": "ZZCOLLBREAK_ITEM2_ESC_O'Reilly",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": { "raw": "https://zzcollbreak.example/beta", "protocol": "https", "host": ["zzcollbreak","example"], "path": ["beta"] }
+      },
+      "response": []
+    },
+    {
+      "name": "ZZCOLLBREAK_FOLDER_BT`",
+      "item": [
+        {
+          "name": "ZZCOLLBREAK_NESTED_DQ\"",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": { "raw": "https://zzcollbreak.example/gamma", "protocol": "https", "host": ["zzcollbreak","example"], "path": ["gamma"] }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    { "key": "zzbreakvar", "value": "ZZCOLLBREAK_VAR_SQ'" }
+  ]
+}
